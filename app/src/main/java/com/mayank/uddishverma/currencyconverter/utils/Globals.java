@@ -1448,8 +1448,10 @@ public class Globals {
                 String newkey = entry.getKey().substring(3);
                 String cost = entry.getValue().getAsString();
                 if (newkey.length() > 1) {
-                    countriesCurrencies.add(newkey);
-                    countryCost.add(cost);
+                    if (!countriesCurrencies.contains(newkey.toString())) {
+                        countriesCurrencies.add(newkey);
+                        countryCost.add(cost);
+                    }
                 }
             }
 
@@ -1461,11 +1463,13 @@ public class Globals {
                 for (Map.Entry<String, JsonElement> entry : allThings.entrySet()) {
                     if (entry.getValue().getAsJsonObject().get("currencyId").getAsString().equals(s)) {
                         String id = entry.getValue().getAsJsonObject().get("id").getAsString();
-                        ids.add(id);
-                        NEWcountryCode.add(id);
-                        NEWcountriesCurrencies.add(s);
-                        NEWcountryCost.add(countryCost.get(i));
-                        flag = 1;
+                        if (!NEWcountriesCurrencies.contains(s.toString())) {
+                            ids.add(id);
+                            NEWcountryCode.add(id);
+                            NEWcountriesCurrencies.add(s);
+                            NEWcountryCost.add(countryCost.get(i));
+                            flag = 1;
+                        }
                     }
                 }
                 if(flag==0){
