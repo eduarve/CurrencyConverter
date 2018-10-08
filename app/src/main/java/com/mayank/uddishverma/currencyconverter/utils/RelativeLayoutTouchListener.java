@@ -38,6 +38,7 @@ public class RelativeLayoutTouchListener implements View.OnTouchListener {
         MainActivity.countryTo.setTextColor(Color.parseColor("#2A93D5"));
         MainActivity.currency_to.setTextColor(Color.parseColor("#2A93D5"));
         MainActivity.currencyToName.setTextColor(Color.parseColor("#2A93D5"));
+        MainActivity.toLetters.setTextColor(Color.parseColor("#2A93D5"));
         MainActivity.line.setBackgroundColor(Color.parseColor("#2A93D5"));
 
         ColorStateList csl = AppCompatResources.getColorStateList(MainActivity.ctx, R.color.blue);
@@ -55,6 +56,7 @@ public class RelativeLayoutTouchListener implements View.OnTouchListener {
         MainActivity.countryTo.setTextColor(Color.parseColor("#FA898A"));
         MainActivity.currency_to.setTextColor(Color.parseColor("#FA898A"));
         MainActivity.currencyToName.setTextColor(Color.parseColor("#FA898A"));
+        MainActivity.toLetters.setTextColor(Color.parseColor("#FA898A"));
         MainActivity.line.setBackgroundColor(Color.parseColor("#FA898A"));
 
         ColorStateList csl = AppCompatResources.getColorStateList(MainActivity.ctx, R.color.peach);

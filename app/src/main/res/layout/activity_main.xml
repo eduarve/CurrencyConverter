@@ -185,8 +185,16 @@
                         android:textColor="#FFF"
                         android:textColorHighlight="#fff"
                         android:textColorHint="#fff"
-                        android:textSize="45dp" />
+                        android:textSize="40dp" />
 
+                    <TextView
+                        android:id="@+id/fromLetters"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monto en letras"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#fff" />
 
                 </LinearLayout>
 
@@ -265,7 +273,7 @@
                             android:textColor="@color/blue"
                             android:textColorHighlight="@color/blue"
                             android:textColorHint="@color/blue"
-                            android:textSize="45dp" />
+                            android:textSize="40dp" />
 
                         <View
                             android:id="@+id/txt_line"
@@ -273,6 +281,15 @@
                             android:layout_height="2dp"
                             android:background="@color/blue" />
                     </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/toLetters"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monto en letras"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/blue" />
 
                 </LinearLayout>
 

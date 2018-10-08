@@ -30,9 +30,11 @@ import android.widget.TextView;
 
 import com.mayank.uddishverma.currencyconverter.rest.Data;
 import com.mayank.uddishverma.currencyconverter.utils.Globals;
+import com.mayank.uddishverma.currencyconverter.utils.Numero;
 import com.mayank.uddishverma.currencyconverter.utils.Prefs;
 import com.mayank.uddishverma.currencyconverter.utils.RelativeLayoutTouchListener;
 
+import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -44,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     public static TextView date, currencyTitle, countryTo, countryFrom, currencyFromName, currencyToName;
     public static int flag;
     public static EditText currency_from;
-    public static TextView currency_to;
+    public static TextView currency_to, fromLetters, toLetters;
     Typeface tfRegular, tfThin;
     public static ImageView arrowDown, arrowUp;
     public static BottomSheetBehavior behavior;
@@ -101,6 +103,9 @@ public class MainActivity extends AppCompatActivity {
         }catch (Exception e){
             e.printStackTrace();
         }
+
+        fromLetters.setText("");
+        toLetters.setText("");
 
         screenHeight = getScreenHeight();
 
@@ -222,8 +227,20 @@ public class MainActivity extends AppCompatActivity {
                 if (s != null && s.length() > 0) {
                     String value = Globals.convertCurrency(countryFrom.getText().toString(), countryTo.getText().toString(), s.toString());
                     currency_to.setText(value.toString());
+
+                    if (!countryFrom.getText().toString().equals("PTR"))
+                        fromLetters.setText(Numero.enLetras(BigDecimal.valueOf(Double.parseDouble(s.toString()))));
+                    else
+                        fromLetters.setText("");
+
+                    if (countryTo.getText() != null && !countryTo.getText().toString().equals("PTR"))
+                        toLetters.setText(Numero.enLetras(BigDecimal.valueOf(Double.parseDouble(value.toString()))));
+                    else
+                        toLetters.setText("");
                 }else {
                     currency_to.setText("");
+                    fromLetters.setText("");
+                    toLetters.setText("");
                 }
             }
 
@@ -263,6 +280,8 @@ public class MainActivity extends AppCompatActivity {
         arrowUp = (ImageView) findViewById(R.id.up_arrow);
         countryTo = (TextView) findViewById(R.id.country_to);
         countryFrom = (TextView) findViewById(R.id.country_from);
+        fromLetters  = (TextView) findViewById(R.id.fromLetters);
+        toLetters  = (TextView) findViewById(R.id.toLetters);
         currencyFromName = (TextView) findViewById(R.id.country_from_currency_name);
         currencyToName = (TextView) findViewById(R.id.country_to_currency_name);
 
