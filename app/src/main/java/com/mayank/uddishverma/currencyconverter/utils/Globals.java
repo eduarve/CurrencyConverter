@@ -25,186 +25,39 @@ public class Globals {
             "        \"terms\": \"https://currencylayer.com/terms\",\n" +
             "        \"privacy\": \"https://currencylayer.com/privacy\",\n" +
             "        \"timestamp\": 1497186671,\n" +
-            "        \"source\": \"USD\",\n" +
+            "        \"source\": \"VES\",\n" +
             "        \"quotes\": {\n" +
-            "            \"USDAED\": 3.672504,\n" +
-            "            \"USDAFN\": 68.160004,\n" +
-            "            \"USDALL\": 119.000368,\n" +
-            "            \"USDAMD\": 481.980011,\n" +
-            "            \"USDANG\": 1.790403,\n" +
-            "            \"USDAOA\": 165.089996,\n" +
-            "            \"USDARS\": 15.910402,\n" +
-            "            \"USDAUD\": 1.324304,\n" +
-            "            \"USDAWG\": 1.789,\n" +
-            "            \"USDAZN\": 1.701704,\n" +
-            "            \"USDBAM\": 1.749504,\n" +
-            "            \"USDBBD\": 2,\n" +
-            "            \"USDBDT\": 80.769997,\n" +
-            "            \"USDBGN\": 1.750401,\n" +
-            "            \"USDBHD\": 0.376504,\n" +
-            "            \"USDBIF\": 1708.300049,\n" +
-            "            \"USDBMD\": 1,\n" +
-            "            \"USDBND\": 1.383804,\n" +
-            "            \"USDBOB\": 6.860399,\n" +
-            "            \"USDBRL\": 3.295904,\n" +
-            "            \"USDBSD\": 1,\n" +
-            "            \"USDBTC\": 0.000342,\n" +
-            "            \"USDBTN\": 64.300003,\n" +
-            "            \"USDBWP\": 10.219904,\n" +
-            "            \"USDBYN\": 1.860398,\n" +
-            "            \"USDBYR\": 20020,\n" +
-            "            \"USDBZD\": 1.997804,\n" +
-            "            \"USDCAD\": 1.346804,\n" +
-            "            \"USDCDF\": 1444.199951,\n" +
-            "            \"USDCHF\": 0.96871,\n" +
-            "            \"USDCLF\": 0.02465,\n" +
-            "            \"USDCLP\": 663.000361,\n" +
-            "            \"USDCNY\": 6.796904,\n" +
-            "            \"USDCOP\": 2913,\n" +
-            "            \"USDCRC\": 562.880005,\n" +
-            "            \"USDCUC\": 1,\n" +
-            "            \"USDCUP\": 1.00036,\n" +
-            "            \"USDCVE\": 98.519997,\n" +
-            "            \"USDCZK\": 23.36204,\n" +
-            "            \"USDDJF\": 177.600006,\n" +
-            "            \"USDDKK\": 6.64622,\n" +
-            "            \"USDDOP\": 47.060001,\n" +
-            "            \"USDDZD\": 108.046997,\n" +
-            "            \"USDEEK\": 14.27904,\n" +
-            "            \"USDEGP\": 18.090392,\n" +
-            "            \"USDERN\": 15.280392,\n" +
-            "            \"USDETB\": 23.000358,\n" +
-            "            \"USDEUR\": 0.893104,\n" +
-            "            \"USDFJD\": 2.06504,\n" +
-            "            \"USDFKP\": 0.784904,\n" +
-            "            \"USDGBP\": 0.78462,\n" +
-            "            \"USDGEL\": 2.398504,\n" +
-            "            \"USDGGP\": 0.784717,\n" +
-            "            \"USDGHS\": 4.368504,\n" +
-            "            \"USDGIP\": 0.785204,\n" +
-            "            \"USDGMD\": 44.470001,\n" +
-            "            \"USDGNF\": 9015.000355,\n" +
-            "            \"USDGTQ\": 7.350504,\n" +
-            "            \"USDGYD\": 206.490005,\n" +
-            "            \"USDHKD\": 7.795504,\n" +
-            "            \"USDHNL\": 23.35104,\n" +
-            "            \"USDHRK\": 6.587604,\n" +
-            "            \"USDHTG\": 61.470001,\n" +
-            "            \"USDHUF\": 274.570007,\n" +
-            "            \"USDIDR\": 13288,\n" +
-            "            \"USDILS\": 3.52604,\n" +
-            "            \"USDIMP\": 0.784717,\n" +
-            "            \"USDINR\": 64.250387,\n" +
-            "            \"USDIQD\": 1181,\n" +
-            "            \"USDIRR\": 32454.000352,\n" +
-            "            \"USDISK\": 98.599998,\n" +
-            "            \"USDJEP\": 0.784717,\n" +
-            "            \"USDJMD\": 128.970001,\n" +
-            "            \"USDJOD\": 0.708504,\n" +
-            "            \"USDJPY\": 110.327003,\n" +
-            "            \"USDKES\": 103.150002,\n" +
-            "            \"USDKGS\": 68.342003,\n" +
-            "            \"USDKHR\": 4040.00035,\n" +
-            "            \"USDKMF\": 450.329987,\n" +
-            "            \"USDKPW\": 900.00035,\n" +
-            "            \"USDKRW\": 1123.790039,\n" +
-            "            \"USDKWD\": 0.303039,\n" +
-            "            \"USDKYD\": 0.820383,\n" +
-            "            \"USDKZT\": 315.579987,\n" +
-            "            \"USDLAK\": 8193.000349,\n" +
-            "            \"USDLBP\": 1505.699951,\n" +
-            "            \"USDLKR\": 152.419998,\n" +
-            "            \"USDLRD\": 92.000348,\n" +
-            "            \"USDLSL\": 12.890381,\n" +
-            "            \"USDLTL\": 3.048704,\n" +
-            "            \"USDLVL\": 0.62055,\n" +
-            "            \"USDLYD\": 1.388504,\n" +
-            "            \"USDMAD\": 9.754904,\n" +
-            "            \"USDMDL\": 18.084999,\n" +
-            "            \"USDMGA\": 3170.000347,\n" +
-            "            \"USDMKD\": 54.689999,\n" +
-            "            \"USDMMK\": 1351.000346,\n" +
-            "            \"USDMNT\": 2381.000346,\n" +
-            "            \"USDMOP\": 8.029404,\n" +
-            "            \"USDMRO\": 358.000346,\n" +
-            "            \"USDMUR\": 34.619999,\n" +
-            "            \"USDMVR\": 15.350378,\n" +
-            "            \"USDMWK\": 716.890015,\n" +
-            "            \"USDMXN\": 18.160999,\n" +
-            "            \"USDMYR\": 4.263504,\n" +
-            "            \"USDMZN\": 59.980377,\n" +
-            "            \"USDNAD\": 12.889039,\n" +
-            "            \"USDNGN\": 322.000344,\n" +
-            "            \"USDNIO\": 29.549999,\n" +
-            "            \"USDNOK\": 8.493604,\n" +
-            "            \"USDNPR\": 102.503718,\n" +
-            "            \"USDNZD\": 1.386039,\n" +
-            "            \"USDOMR\": 0.384404,\n" +
-            "            \"USDPAB\": 1,\n" +
-            "            \"USDPEN\": 3.266504,\n" +
-            "            \"USDPGK\": 3.280375,\n" +
-            "            \"USDPHP\": 49.520375,\n" +
-            "            \"USDPKR\": 104.849998,\n" +
-            "            \"USDPLN\": 3.737604,\n" +
-            "            \"USDPYG\": 5567.000341,\n" +
-            "            \"USDQAR\": 3.655304,\n" +
-            "            \"USDRON\": 4.070404,\n" +
-            "            \"USDRSD\": 108.975502,\n" +
-            "            \"USDRUB\": 57.015999,\n" +
-            "            \"USDRWF\": 820.330017,\n" +
-            "            \"USDSAR\": 3.749904,\n" +
-            "            \"USDSBD\": 7.871504,\n" +
-            "            \"USDSCR\": 13.460372,\n" +
-            "            \"USDSDG\": 6.659804,\n" +
-            "            \"USDSEK\": 8.71036,\n" +
-            "            \"USDSGD\": 1.38355,\n" +
-            "            \"USDSHP\": 0.785204,\n" +
-            "            \"USDSLL\": 7500.000338,\n" +
-            "            \"USDSOS\": 549.000338,\n" +
-            "            \"USDSRD\": 7.45037,\n" +
-            "            \"USDSTD\": 21890.599609,\n" +
-            "            \"USDSVC\": 8.722204,\n" +
-            "            \"USDSYP\": 514.97998,\n" +
-            "            \"USDSZL\": 12.87037,\n" +
-            "            \"USDTHB\": 34.040001,\n" +
-            "            \"USDTJS\": 8.819504,\n" +
-            "            \"USDTMT\": 3.4,\n" +
-            "            \"USDTND\": 2.445038,\n" +
-            "            \"USDTOP\": 2.278038,\n" +
-            "            \"USDTRY\": 3.536504,\n" +
-            "            \"USDTTD\": 6.719204,\n" +
-            "            \"USDTWD\": 30.084999,\n" +
-            "            \"USDTZS\": 2231.000335,\n" +
-            "            \"USDUAH\": 26.129999,\n" +
-            "            \"USDUGX\": 3582.000335,\n" +
-            "            \"USDUSD\": 1,\n" +
-            "            \"USDUYU\": 28.459999,\n" +
-            "            \"USDUZS\": 3860.000334,\n" +
-            "            \"USDVEF\": 9.974804,\n" +
-            "            \"USDVND\": 22674,\n" +
-            "            \"USDVUV\": 108.239998,\n" +
-            "            \"USDWST\": 2.547204,\n" +
-            "            \"USDXAF\": 585.409973,\n" +
-            "            \"USDXAG\": 0.058113,\n" +
-            "            \"USDXAU\": 0.000789,\n" +
-            "            \"USDXCD\": 2.703604,\n" +
-            "            \"USDXDR\": 0.723519,\n" +
-            "            \"USDXOF\": 587.750364,\n" +
-            "            \"USDXPF\": 107.000332,\n" +
-            "            \"USDYER\": 249.949997,\n" +
-            "            \"USDZAR\": 12.943304,\n" +
-            "            \"USDZMK\": 9.255037,\n" +
-            "            \"USDZMW\": 9.290363,\n" +
-            "            \"USDZWL\": 322.355011\n" +
+    //        "            \"USDCOP\": 2913,\n" +
+    //        "            \"USDEUR\": 0.893104,\n" +
+    //        "            \"USDPLN\": 3.737604,\n" +
+            "            \"VESVES\": 1,\n" +
+            "            \"VESVEF\": 100000,\n" +
+            "            \"VESPTR\": 0.000277777777777\n" +
+    //        "            \"VESUSD\": 0.0097910\n" +
             "        }\n" +
             "    }\n" +
             "}";
-
 
     public static String allThingsJson() {
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("{\n" +
                 "    \"results\": {\n" +
+                "        \"PTR\": {\n" +
+                "            \"alpha3\": \"PTR\",\n" +
+                "            \"currencyId\": \"PTR\",\n" +
+                "            \"currencyName\": \"Criptomoneda Petro\",\n" +
+                "            \"currencySymbol\": \"P\",\n" +
+                "            \"id\": \"PT\",\n" +
+                "            \"name\": \"Petro\"\n" +
+                "        },\n" +
+                "        \"VEF\": {\n" +
+                "            \"alpha3\": \"VEF\",\n" +
+                "            \"currencyId\": \"VEF\",\n" +
+                "            \"currencyName\": \"Bolivar Fuerte\",\n" +
+                "            \"currencySymbol\": \"Bs\",\n" +
+                "            \"id\": \"VE\",\n" +
+                "            \"name\": \"BOLIVAR FUERTE\"\n" +
+                "        },\n" +
                 "        \"AF\": {\n" +
                 "            \"alpha3\": \"AFG\",\n" +
                 "            \"currencyId\": \"AFN\",\n" +
@@ -289,14 +142,6 @@ public class Globals {
                 "            \"id\": \"DM\",\n" +
                 "            \"name\": \"Dominica\"\n" +
                 "        },\n" +
-                "        \"FI\": {\n" +
-                "            \"alpha3\": \"FIN\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"FI\",\n" +
-                "            \"name\": \"Finland\"\n" +
-                "        },\n" +
                 "        \"GE\": {\n" +
                 "            \"currencyId\": \"GEL\",\n" +
                 "            \"currencyName\": \"Georgian lari\",\n" +
@@ -357,14 +202,6 @@ public class Globals {
                 "            \"alpha3\": \"LSO\",\n" +
                 "            \"id\": \"LS\"\n" +
                 "        },\n" +
-                "        \"LU\": {\n" +
-                "            \"alpha3\": \"LUX\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"LU\",\n" +
-                "            \"name\": \"Luxembourg\"\n" +
-                "        },\n" +
                 "        \"MY\": {\n" +
                 "            \"alpha3\": \"MYS\",\n" +
                 "            \"currencyId\": \"MYR\",\n" +
@@ -418,14 +255,6 @@ public class Globals {
                 "            \"alpha3\": \"PNG\",\n" +
                 "            \"id\": \"PG\"\n" +
                 "        },\n" +
-                "        \"PT\": {\n" +
-                "            \"alpha3\": \"PRT\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"PT\",\n" +
-                "            \"name\": \"Portugal\"\n" +
-                "        },\n" +
                 "        \"RW\": {\n" +
                 "            \"currencyId\": \"RWF\",\n" +
                 "            \"currencyName\": \"Rwandan franc\",\n" +
@@ -447,22 +276,6 @@ public class Globals {
                 "            \"currencySymbol\": \"Дин.\",\n" +
                 "            \"id\": \"RS\",\n" +
                 "            \"name\": \"Serbia\"\n" +
-                "        },\n" +
-                "        \"SI\": {\n" +
-                "            \"alpha3\": \"SVN\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"SI\",\n" +
-                "            \"name\": \"Slovenia\"\n" +
-                "        },\n" +
-                "        \"ES\": {\n" +
-                "            \"alpha3\": \"ESP\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"ES\",\n" +
-                "            \"name\": \"Spain\"\n" +
                 "        },\n" +
                 "        \"SE\": {\n" +
                 "            \"alpha3\": \"SWE\",\n" +
@@ -590,22 +403,6 @@ public class Globals {
                 "            \"id\": \"CZ\",\n" +
                 "            \"name\": \"Czech Republic\"\n" +
                 "        },\n" +
-                "        \"EC\": {\n" +
-                "            \"alpha3\": \"ECU\",\n" +
-                "            \"currencyId\": \"USD\",\n" +
-                "            \"currencyName\": \"U.S. Dollar\",\n" +
-                "            \"currencySymbol\": \"$\",\n" +
-                "            \"id\": \"EC\",\n" +
-                "            \"name\": \"Ecuador\"\n" +
-                "        },\n" +
-                "        \"EE\": {\n" +
-                "            \"alpha3\": \"EST\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"EE\",\n" +
-                "            \"name\": \"Estonia\"\n" +
-                "        },\n" +
                 "        \"PF\": {\n" +
                 "            \"currencyId\": \"XPF\",\n" +
                 "            \"currencyName\": \"CFP franc\",\n" +
@@ -688,14 +485,6 @@ public class Globals {
                 "            \"name\": \"Mali\",\n" +
                 "            \"alpha3\": \"MLI\",\n" +
                 "            \"id\": \"ML\"\n" +
-                "        },\n" +
-                "        \"FM\": {\n" +
-                "            \"alpha3\": \"FSM\",\n" +
-                "            \"currencyId\": \"USD\",\n" +
-                "            \"currencyName\": \"U.S. Dollar\",\n" +
-                "            \"currencySymbol\": \"$\",\n" +
-                "            \"id\": \"FM\",\n" +
-                "            \"name\": \"Micronesia\"\n" +
                 "        },\n" +
                 "        \"MS\": {\n" +
                 "            \"alpha3\": \"MSR\",\n" +
@@ -812,20 +601,12 @@ public class Globals {
                 "            \"id\": \"GB\",\n" +
                 "            \"name\": \"United Kingdom\"\n" +
                 "        },\n" +
-                "        \"VE\": {\n" +
-                "            \"currencyId\": \"VEF\",\n" +
-                "            \"currencyName\": \"Venezuelan bolivar\",\n" +
+                "        \"VES\": {\n" +
+                "            \"currencyId\": \"VES\",\n" +
+                "            \"currencyName\": \"Bolivar Soberano\",\n" +
                 "            \"name\": \"Venezuela\",\n" +
-                "            \"alpha3\": \"VEN\",\n" +
+                "            \"alpha3\": \"VES\",\n" +
                 "            \"id\": \"VE\"\n" +
-                "        },\n" +
-                "        \"AD\": {\n" +
-                "            \"alpha3\": \"AND\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"AD\",\n" +
-                "            \"name\": \"Andorra\"\n" +
                 "        },\n" +
                 "        \"AM\": {\n" +
                 "            \"currencyId\": \"AMD\",\n" +
@@ -841,14 +622,6 @@ public class Globals {
                 "            \"currencySymbol\": \"$\",\n" +
                 "            \"id\": \"BS\",\n" +
                 "            \"name\": \"Bahamas\"\n" +
-                "        },\n" +
-                "        \"BE\": {\n" +
-                "            \"alpha3\": \"BEL\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"BE\",\n" +
-                "            \"name\": \"Belgium\"\n" +
                 "        },\n" +
                 "        \"BA\": {\n" +
                 "            \"alpha3\": \"BIH\",\n" +
@@ -987,14 +760,6 @@ public class Globals {
                 "            \"alpha3\": \"MDG\",\n" +
                 "            \"id\": \"MG\"\n" +
                 "        },\n" +
-                "        \"MT\": {\n" +
-                "            \"alpha3\": \"MLT\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European Euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"MT\",\n" +
-                "            \"name\": \"Malta\"\n" +
-                "        },\n" +
                 "        \"MD\": {\n" +
                 "            \"currencyId\": \"MDL\",\n" +
                 "            \"currencyName\": \"Moldovan leu\",\n" +
@@ -1023,14 +788,6 @@ public class Globals {
                 "            \"name\": \"Niger\",\n" +
                 "            \"alpha3\": \"NER\",\n" +
                 "            \"id\": \"NE\"\n" +
-                "        },\n" +
-                "        \"PW\": {\n" +
-                "            \"alpha3\": \"PLW\",\n" +
-                "            \"currencyId\": \"USD\",\n" +
-                "            \"currencyName\": \"U.S. Dollar\",\n" +
-                "            \"currencySymbol\": \"$\",\n" +
-                "            \"id\": \"PW\",\n" +
-                "            \"name\": \"Palau\"\n" +
                 "        },\n" +
                 "        \"PH\": {\n" +
                 "            \"alpha3\": \"PHL\",\n" +
@@ -1143,14 +900,6 @@ public class Globals {
                 "            \"id\": \"AG\",\n" +
                 "            \"name\": \"Antigua and Barbuda\"\n" +
                 "        },\n" +
-                "        \"AT\": {\n" +
-                "            \"alpha3\": \"AUT\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"AT\",\n" +
-                "            \"name\": \"Austria\"\n" +
-                "        },\n" +
                 "        \"BB\": {\n" +
                 "            \"alpha3\": \"BRB\",\n" +
                 "            \"currencyId\": \"BBD\",\n" +
@@ -1196,14 +945,6 @@ public class Globals {
                 "            \"alpha3\": \"COD\",\n" +
                 "            \"id\": \"CD\"\n" +
                 "        },\n" +
-                "        \"CY\": {\n" +
-                "            \"alpha3\": \"CYP\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"CY\",\n" +
-                "            \"name\": \"Cyprus\"\n" +
-                "        },\n" +
                 "        \"DO\": {\n" +
                 "            \"alpha3\": \"DOM\",\n" +
                 "            \"currencyId\": \"DOP\",\n" +
@@ -1218,22 +959,6 @@ public class Globals {
                 "            \"name\": \"Eritrea\",\n" +
                 "            \"alpha3\": \"ERI\",\n" +
                 "            \"id\": \"ER\"\n" +
-                "        },\n" +
-                "        \"FR\": {\n" +
-                "            \"alpha3\": \"FRA\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"FR\",\n" +
-                "            \"name\": \"France\"\n" +
-                "        },\n" +
-                "        \"DE\": {\n" +
-                "            \"alpha3\": \"DEU\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"DE\",\n" +
-                "            \"name\": \"Germany\"\n" +
                 "        },\n" +
                 "        \"GT\": {\n" +
                 "            \"alpha3\": \"GTM\",\n" +
@@ -1258,14 +983,6 @@ public class Globals {
                 "            \"currencySymbol\": \"Rp\",\n" +
                 "            \"id\": \"ID\",\n" +
                 "            \"name\": \"Indonesia\"\n" +
-                "        },\n" +
-                "        \"IT\": {\n" +
-                "            \"alpha3\": \"ITA\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"IT\",\n" +
-                "            \"name\": \"Italy\"\n" +
                 "        },\n" +
                 "        \"KE\": {\n" +
                 "            \"alpha3\": \"KEN\",\n" +
@@ -1313,14 +1030,6 @@ public class Globals {
                 "            \"id\": \"MX\",\n" +
                 "            \"name\": \"Mexico\"\n" +
                 "        },\n" +
-                "        \"ME\": {\n" +
-                "            \"alpha3\": \"MNE\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European Euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"ME\",\n" +
-                "            \"name\": \"Montenegro\"\n" +
-                "        },\n" +
                 "        \"NA\": {\n" +
                 "            \"alpha3\": \"NAM\",\n" +
                 "            \"currencyId\": \"NAD\",\n" +
@@ -1353,14 +1062,6 @@ public class Globals {
                 "            \"id\": \"PY\",\n" +
                 "            \"name\": \"Paraguay\"\n" +
                 "        },\n" +
-                "        \"PR\": {\n" +
-                "            \"alpha3\": \"PRI\",\n" +
-                "            \"currencyId\": \"USD\",\n" +
-                "            \"currencyName\": \"U.S. Dollar\",\n" +
-                "            \"currencySymbol\": \"$\",\n" +
-                "            \"id\": \"PR\",\n" +
-                "            \"name\": \"Puerto Rico\"\n" +
-                "        },\n" +
                 "        \"SH\": {\n" +
                 "            \"alpha3\": \"SHN\",\n" +
                 "            \"currencyId\": \"SHP\",\n" +
@@ -1368,14 +1069,6 @@ public class Globals {
                 "            \"currencySymbol\": \"£\",\n" +
                 "            \"id\": \"SH\",\n" +
                 "            \"name\": \"Saint Helena\"\n" +
-                "        },\n" +
-                "        \"SM\": {\n" +
-                "            \"alpha3\": \"SMR\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"SM\",\n" +
-                "            \"name\": \"San Marino\"\n" +
                 "        },\n" +
                 "        \"SC\": {\n" +
                 "            \"alpha3\": \"SYC\",\n" +
@@ -1519,14 +1212,6 @@ public class Globals {
                 "            \"alpha3\": \"DJI\",\n" +
                 "            \"id\": \"DJ\"\n" +
                 "        },\n" +
-                "        \"SV\": {\n" +
-                "            \"alpha3\": \"SLV\",\n" +
-                "            \"currencyId\": \"USD\",\n" +
-                "            \"currencyName\": \"U.S. Dollar\",\n" +
-                "            \"currencySymbol\": \"$\",\n" +
-                "            \"id\": \"SV\",\n" +
-                "            \"name\": \"El Salvador\"\n" +
-                "        },\n" +
                 "        \"FJ\": {\n" +
                 "            \"alpha3\": \"FJI\",\n" +
                 "            \"currencyId\": \"FJD\",\n" +
@@ -1541,14 +1226,6 @@ public class Globals {
                 "            \"name\": \"Gambia\",\n" +
                 "            \"alpha3\": \"GMB\",\n" +
                 "            \"id\": \"GM\"\n" +
-                "        },\n" +
-                "        \"GR\": {\n" +
-                "            \"alpha3\": \"GRC\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"GR\",\n" +
-                "            \"name\": \"Greece\"\n" +
                 "        },\n" +
                 "        \"GY\": {\n" +
                 "            \"alpha3\": \"GUY\",\n" +
@@ -1565,14 +1242,6 @@ public class Globals {
                 "            \"currencySymbol\": \"kr\",\n" +
                 "            \"id\": \"IS\",\n" +
                 "            \"name\": \"Iceland\"\n" +
-                "        },\n" +
-                "        \"IE\": {\n" +
-                "            \"alpha3\": \"IRL\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"IE\",\n" +
-                "            \"name\": \"Ireland\"\n" +
                 "        },\n" +
                 "        \"JO\": {\n" +
                 "            \"currencyId\": \"JOD\",\n" +
@@ -1611,28 +1280,12 @@ public class Globals {
                 "            \"alpha3\": \"MRT\",\n" +
                 "            \"id\": \"MR\"\n" +
                 "        },\n" +
-                "        \"MC\": {\n" +
-                "            \"alpha3\": \"MCO\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European Euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"MC\",\n" +
-                "            \"name\": \"Monaco\"\n" +
-                "        },\n" +
                 "        \"MZ\": {\n" +
                 "            \"currencyId\": \"MZN\",\n" +
                 "            \"currencyName\": \"Mozambican metical\",\n" +
                 "            \"name\": \"Mozambique\",\n" +
                 "            \"alpha3\": \"MOZ\",\n" +
                 "            \"id\": \"MZ\"\n" +
-                "        },\n" +
-                "        \"NL\": {\n" +
-                "            \"alpha3\": \"NLD\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"NL\",\n" +
-                "            \"name\": \"Netherlands\"\n" +
                 "        },\n" +
                 "        \"NG\": {\n" +
                 "            \"alpha3\": \"NGA\",\n" +
@@ -1680,14 +1333,6 @@ public class Globals {
                 "            \"name\": \"Senegal\",\n" +
                 "            \"alpha3\": \"SEN\",\n" +
                 "            \"id\": \"SN\"\n" +
-                "        },\n" +
-                "        \"SK\": {\n" +
-                "            \"alpha3\": \"SVK\",\n" +
-                "            \"currencyId\": \"EUR\",\n" +
-                "            \"currencyName\": \"European euro\",\n" +
-                "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"SK\",\n" +
-                "            \"name\": \"Slovakia\"\n" +
                 "        },\n" +
                 "        \"SS\": {\n" +
                 "            \"currencyId\": \"SDG\",\n" +
@@ -1741,13 +1386,13 @@ public class Globals {
                 "            \"alpha3\": \"WLF\",\n" +
                 "            \"id\": \"WF\"\n" +
                 "        },\n" +
-                "        \"LT\": {\n" +
+                "        \"EU\": {\n" +
                 "            \"alpha3\": \"LTU\",\n" +
                 "            \"currencyId\": \"EUR\",\n" +
                 "            \"currencyName\": \"European euro\",\n" +
                 "            \"currencySymbol\": \"€\",\n" +
-                "            \"id\": \"LT\",\n" +
-                "            \"name\": \"Lithuania\"\n" +
+                "            \"id\": \"EU\",\n" +
+                "            \"name\": \"Euro\"\n" +
                 "        }\n" +
                 "    }\n" +
                 "}");
@@ -1755,7 +1400,6 @@ public class Globals {
         String s = stringBuffer.toString();
         return s;
     }
-
 
     public static String getCountryFlag(String countryCode) {
         try {
@@ -1790,6 +1434,7 @@ public class Globals {
             JsonObject currencyObject;
             if ((Prefs.getPrefs("currencyJson", context).equals("notfound"))) {
                 currencyObject = parser.parse(Globals.initalCurrnecyJson).getAsJsonObject();
+                Prefs.setPrefs("currencyJson", Globals.initalCurrnecyJson, context);
             } else {
                 currencyObject = parser.parse(Prefs.getPrefs("currencyJson", context)).getAsJsonObject();
             }
@@ -1855,6 +1500,29 @@ public class Globals {
         } else {
             return "0";
         }
+    }
+
+
+    public static String getCountryCurrencyName(String currencyCode) {
+        String currencyName = "" ;
+        try {
+
+            JsonParser parser = new JsonParser();
+
+            JsonObject allThingsObject = parser.parse(Globals.allThingsJson()).getAsJsonObject();
+
+            JsonObject allThings = allThingsObject.get("results").getAsJsonObject();
+
+                for (Map.Entry<String, JsonElement> entry : allThings.entrySet()) {
+                    if (entry.getValue().getAsJsonObject().get("currencyId").getAsString().equals(currencyCode)) {
+                        currencyName = entry.getValue().getAsJsonObject().get("currencyName").getAsString();
+                        break;
+                    }
+                }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return currencyName;
     }
 
 }

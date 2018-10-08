@@ -91,12 +91,23 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.ViewHo
                         p=1;
                     }else {
                         MainActivity.countryFrom.setText(holder.currency.getText().toString());
+                        //muestra el nombre de la moneda
+                        String name  = Globals.getCountryCurrencyName(holder.currency.getText().toString());
+                        if (!name.equals("")) {
+                            MainActivity.currencyFromName.setText(name);
+                        }
                     }
                 }else if(MainActivity.flag==2){
                     if(holder.currency.getText().toString().toLowerCase().equals(MainActivity.countryFrom.getText().toString().toLowerCase())){
                         p=1;
                     }else {
                         MainActivity.countryTo.setText(holder.currency.getText().toString());
+                        //muestra el nombre de la moneda
+                        String name  = Globals.getCountryCurrencyName(holder.currency.getText().toString());
+                        if (!name.equals("")) {
+                            MainActivity.currencyToName.setText(name);
+                        }
+
                     }
                 }
                 if(p==0){

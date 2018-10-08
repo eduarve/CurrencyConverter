@@ -34,12 +34,13 @@ public class Data {
         protected Integer doInBackground(Activity... params) {
             final Activity activity = params[0];
 
-            ApiInterface apiInterface = new ApiClient().getClient(activity).create(ApiInterface.class);
+            //ApiInterface apiInterface = new ApiClient().getClient(activity).create(ApiInterface.class);
 
-            final Call<JsonObject> bootupRes = apiInterface.getCurrencyMobile();
+            //final Call<JsonObject> bootupRes = apiInterface.getCurrencyMobile();
 
             try {
-                JsonObject currencyResponse = bootupRes.execute().body();
+                //JsonObject currencyResponse = bootupRes.execute().body();
+                JsonObject currencyResponse = null;
                 if (currencyResponse.get("status").getAsBoolean()) {
                     Prefs.setPrefs("currencyJson", currencyResponse.toString(), activity);
                     error = 0;

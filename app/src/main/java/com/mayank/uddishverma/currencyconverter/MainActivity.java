@@ -41,7 +41,7 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static TextView date, currencyTitle, countryTo, countryFrom;
+    public static TextView date, currencyTitle, countryTo, countryFrom, currencyFromName, currencyToName;
     public static int flag;
     public static EditText currency_from;
     public static TextView currency_to;
@@ -78,13 +78,25 @@ public class MainActivity extends AppCompatActivity {
             if(!(Prefs.getPrefs("country_from",MainActivity.this).equals("notfound"))){
                 countryFrom.setText(Prefs.getPrefs("country_from",MainActivity.this));
             }else {
-                countryFrom.setText("USD");
+                countryFrom.setText("VES");
+            }
+            String name  = Globals.getCountryCurrencyName(countryFrom.getText().toString());
+            if (!name.equals("")) {
+                currencyFromName.setText(name);
+            } else {
+                currencyFromName.setText("");
             }
 
             if(!(Prefs.getPrefs("country_to",MainActivity.this).equals("notfound"))){
                 countryTo.setText(Prefs.getPrefs("country_to",MainActivity.this));
             }else {
-                countryTo.setText("INR");
+                countryTo.setText("PTR");
+            }
+            name  = Globals.getCountryCurrencyName(countryTo.getText().toString());
+            if (!name.equals("")) {
+                currencyToName.setText(name);
+            } else {
+                currencyToName.setText("");
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -159,6 +171,20 @@ public class MainActivity extends AppCompatActivity {
                 tempFrom = String.valueOf(currency_from.getText());
                 currency_from.setText(currency_to.getText());
                 currency_to.setText(tempFrom);
+
+                String name  = Globals.getCountryCurrencyName(countryFrom.getText().toString());
+                if (!name.equals("")) {
+                    currencyFromName.setText(name);
+                } else {
+                    currencyFromName.setText("");
+                }
+
+                name  = Globals.getCountryCurrencyName(countryTo.getText().toString());
+                if (!name.equals("")) {
+                    currencyToName.setText(name);
+                } else {
+                    currencyToName.setText("");
+                }
 
             }
         });
@@ -237,6 +263,8 @@ public class MainActivity extends AppCompatActivity {
         arrowUp = (ImageView) findViewById(R.id.up_arrow);
         countryTo = (TextView) findViewById(R.id.country_to);
         countryFrom = (TextView) findViewById(R.id.country_from);
+        currencyFromName = (TextView) findViewById(R.id.country_from_currency_name);
+        currencyToName = (TextView) findViewById(R.id.country_to_currency_name);
 
         interchange = (CardView) findViewById(R.id.interchange);
 
