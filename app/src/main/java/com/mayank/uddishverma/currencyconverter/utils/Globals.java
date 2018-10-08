@@ -6,6 +6,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -1496,7 +1497,12 @@ public class Globals {
         }
         if (fromusd != null && tousd != null) {
             Float toCost = Float.parseFloat(fromValue) * (((float) 1.0) / (Float.parseFloat(fromusd))) * (Float.parseFloat(tousd));
-            return toCost.toString();
+            Double dToCost = toCost.doubleValue();
+            if (to.equals("PTR")) {
+                return String.format("%10.8f", dToCost).trim();
+            }else {
+                return String.format("%15.2f", dToCost).trim();
+            }
         } else {
             return "0";
         }
