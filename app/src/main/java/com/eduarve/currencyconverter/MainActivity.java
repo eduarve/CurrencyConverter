@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
        // interstitialAd.setAdUnitId("ca-app-pub-1526916643110648/6381269542");
 
         AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice("4C8CDAC69582FC28EA74BBC70991F17D")
+                //.addTestDevice("4C8CDAC69582FC28EA74BBC70991F17D")
                 .build();
 
         interstitialAd.loadAd(adRequest);

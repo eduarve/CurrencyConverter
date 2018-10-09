@@ -11,6 +11,8 @@
         android:id="@+id/bottom_sheet"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
         android:elevation="4dp"
         app:layout_behavior="@string/bottom_sheet_behavior">
 
@@ -30,7 +32,7 @@
                     android:layout_margin="10dp"
                     android:backgroundTint="@color/red"
                     android:gravity="center"
-                    android:hint="Search"
+                    android:hint="Buscar"
                     android:padding="8dp"
                     android:textAppearance="?android:textAppearanceMedium"
                     android:textColor="#FA898A"
@@ -106,6 +108,7 @@
                     android:id="@+id/date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
                     android:padding="7dp"
                     android:text="JUN 11, 2017"
                     android:textColor="#fff" />
@@ -115,9 +118,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/date"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Currency"
+                    android:text="@string/currency_title"
                     android:textAppearance="?android:textAppearanceLarge"
                     android:textColor="#fff"
                     android:textSize="35dp" />
@@ -135,6 +140,8 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/currency_title"
                         android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -178,6 +185,8 @@
                         android:id="@+id/currency_from_et"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
                         android:layout_marginTop="5dp"
                         android:backgroundTint="@android:color/white"
                         android:inputType="numberDecimal"
@@ -191,6 +200,8 @@
                         android:id="@+id/fromLetters"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1"
                         android:text="Monto en letras"
                         android:textAppearance="?android:textAppearanceSmall"
@@ -220,6 +231,8 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
                         android:orientation="horizontal">
 
 
@@ -266,6 +279,8 @@
                             android:id="@+id/currency_to_et"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
                             android:layout_marginTop="5dp"
                             android:backgroundTint="@color/blue"
                             android:inputType="number"
@@ -279,6 +294,8 @@
                             android:id="@+id/txt_line"
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
                             android:background="@color/blue" />
                     </LinearLayout>
 
@@ -286,6 +303,8 @@
                         android:id="@+id/toLetters"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1"
                         android:text="Monto en letras"
                         android:textAppearance="?android:textAppearanceSmall"
