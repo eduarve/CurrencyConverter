@@ -10,6 +10,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1526916643110648~7262697250"/>
+
         <activity
             android:name="com.mayank.uddishverma.currencyconverter.SplashScreen"
             android:screenOrientation="portrait"

@@ -28,6 +28,9 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.mayank.uddishverma.currencyconverter.rest.Data;
 import com.mayank.uddishverma.currencyconverter.utils.Globals;
 import com.mayank.uddishverma.currencyconverter.utils.Numero;
@@ -61,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     CardView interchange;
     public static Context ctx;
     public static View line;
+    private InterstitialAd interstitialAd;
 
     public static final String TAG = "MainActivity";
 
@@ -108,6 +112,22 @@ public class MainActivity extends AppCompatActivity {
         toLetters.setText("");
 
         screenHeight = getScreenHeight();
+
+        /**
+         * configuracion para el admob
+         */
+
+        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
+        MobileAds.initialize(this, "ca-app-pub-1526916643110648~7262697250");
+        interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId( getResources().getString(R.string.id_intertial_ads));
+       // interstitialAd.setAdUnitId("ca-app-pub-1526916643110648/6381269542");
+
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice("4C8CDAC69582FC28EA74BBC70991F17D")
+                .build();
+
+        interstitialAd.loadAd(adRequest);
 
         currencyApi(MainActivity.this);
 
@@ -189,6 +209,12 @@ public class MainActivity extends AppCompatActivity {
                     currencyToName.setText(name);
                 } else {
                     currencyToName.setText("");
+                }
+
+                if (interstitialAd.isLoaded()) {
+                    interstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
                 }
 
             }
