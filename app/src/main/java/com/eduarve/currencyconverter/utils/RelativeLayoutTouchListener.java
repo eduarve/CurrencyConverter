@@ -1,4 +1,4 @@
-package com.mayank.uddishverma.currencyconverter.utils;
+package com.eduarve.currencyconverter.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
-import com.mayank.uddishverma.currencyconverter.MainActivity;
-import com.mayank.uddishverma.currencyconverter.R;
+import com.eduarve.currencyconverter.MainActivity;
+import com.eduarve.currencyconverter.R;
 
 /**
  * Created by uddishverma on 12/06/17.

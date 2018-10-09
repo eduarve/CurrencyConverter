@@ -1,4 +1,4 @@
-package com.mayank.uddishverma.currencyconverter;
+package com.eduarve.currencyconverter;
 
 import android.content.Context;
 import android.support.design.widget.BottomSheetBehavior;
@@ -11,8 +11,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mayank.uddishverma.currencyconverter.utils.Globals;
-import com.mayank.uddishverma.currencyconverter.utils.Prefs;
+import com.eduarve.currencyconverter.utils.Globals;
+import com.eduarve.currencyconverter.utils.Prefs;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mayank.uddishverma.currencyconverter">
+    package="com.eduarve.currencyconverter">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,7 +17,7 @@
             android:value="ca-app-pub-1526916643110648~7262697250"/>
 
         <activity
-            android:name="com.mayank.uddishverma.currencyconverter.SplashScreen"
+            android:name="com.eduarve.currencyconverter.SplashScreen"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
@@ -26,7 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.mayank.uddishverma.currencyconverter.MainActivity"
+        <activity android:name="com.eduarve.currencyconverter.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden"/>
 

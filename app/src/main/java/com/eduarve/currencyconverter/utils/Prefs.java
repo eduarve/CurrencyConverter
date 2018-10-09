@@ -1,4 +1,4 @@
-package com.mayank.uddishverma.currencyconverter.utils;
+package com.eduarve.currencyconverter.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

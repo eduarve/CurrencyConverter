@@ -1,4 +1,4 @@
-package com.mayank.uddishverma.currencyconverter;
+package com.eduarve.currencyconverter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -31,11 +31,12 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-import com.mayank.uddishverma.currencyconverter.rest.Data;
-import com.mayank.uddishverma.currencyconverter.utils.Globals;
-import com.mayank.uddishverma.currencyconverter.utils.Numero;
-import com.mayank.uddishverma.currencyconverter.utils.Prefs;
-import com.mayank.uddishverma.currencyconverter.utils.RelativeLayoutTouchListener;
+import com.eduarve.currencyconverter.R;
+import com.eduarve.currencyconverter.rest.Data;
+import com.eduarve.currencyconverter.utils.Globals;
+import com.eduarve.currencyconverter.utils.Numero;
+import com.eduarve.currencyconverter.utils.Prefs;
+import com.eduarve.currencyconverter.utils.RelativeLayoutTouchListener;
 
 import java.math.BigDecimal;
 import java.text.DateFormat;

@@ -1,4 +1,4 @@
-package com.mayank.uddishverma.currencyconverter.utils;
+package com.eduarve.currencyconverter.utils;
 
 import android.content.Context;
 
@@ -6,7 +6,6 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

@@ -1,14 +1,12 @@
-package com.mayank.uddishverma.currencyconverter.rest;
+package com.eduarve.currencyconverter.rest;
 
 
 import android.app.Activity;
 import android.os.AsyncTask;
 
-import com.mayank.uddishverma.currencyconverter.utils.Globals;
-import com.mayank.uddishverma.currencyconverter.utils.Prefs;
+import com.eduarve.currencyconverter.utils.Globals;
+import com.eduarve.currencyconverter.utils.Prefs;
 import com.google.gson.JsonObject;
-
-import retrofit2.Call;
 
 /**
  * Created by mayankaggarwal on 12/02/17.

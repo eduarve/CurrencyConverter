@@ -1,4 +1,4 @@
-package com.mayank.uddishverma.currencyconverter.utils;
+package com.eduarve.currencyconverter.utils;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
